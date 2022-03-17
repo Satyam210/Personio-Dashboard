@@ -1,0 +1,9 @@
+.tag {
+  border: 1px solid;
+  padding: 3px 6px 3px 6px;
+  font-weight: 500;
+  width: 40px;
+}
+.rejected {
+  color: red;
+}

@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.shareDownload {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-right: 4%;
+}
+.headerStyle {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.shareIcon {
+  margin-right: 15px;
+}

@@ -1,0 +1,43 @@
+.tableContainer {
+  width: 100%;
+  overflow-y: scroll;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0;
+  position: relative;
+}
+th {
+  padding: 14px 16px;
+  position: sticky;
+  top: 0;
+  bottom: 10;
+  background: #d5f0f7;
+  vertical-align: bottom;
+  font-weight: 500;
+}
+tr:hover {
+  background: ghostwhite;
+}
+td {
+  white-space: nowrap;
+  padding: 20px 16px;
+  border-bottom: 1px solid grey;
+}
+
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.noData {
+  margin: 50px;
+  transform: translate(600px);
+  display: grid;
+  place-items: center;
+  color: red;
+}

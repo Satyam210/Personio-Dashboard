@@ -1,0 +1,31 @@
+.toast {
+  position: fixed;
+  left: 50%;
+  right: auto;
+  top: 70px;
+  transform: translateX(-50%);
+  z-index: 1400;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 6px 10px rgba(51, 54, 68, 0.05),
+    0px 10px 16px rgba(51, 54, 68, 0.15);
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  background: white;
+}
+
+.error {
+  background: #fdecec;
+  padding: 12px 8px;
+  color: #5e0c0c;
+}
+.success {
+  padding: 12px 8px;
+  background: rgb(211, 245, 215);
+  color: #155a08;
+}
+
+.icon {
+  margin-right: 12px;
+}
